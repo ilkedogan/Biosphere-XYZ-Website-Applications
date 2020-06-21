@@ -1,0 +1,96 @@
+/*
+    (1) word-spacing -- kelimeler arası boşluk
+    (2) letter-spacing -- harf arası boşluk
+    (3) p::first-line -- first line
+    (4) first-child -- ilk eleman için
+    (5) last-child -- son eleman için
+    (6) link -- aktif olması için kaynak yazılması gerekir
+    (7) visited -- basılı değilken 
+    (8) hover -- üzerine gelindiğinde olan durum/renk
+    (9) active -- üzerine mouse ile gelinip basılmadığında olan durum/renk
+
+
+*/
+
+/* psueudo element */
+p::first-line -- first line{
+    color: aliceblue;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+ul li: first-child{
+    background-color: antiquewhite;
+}
+
+p::first-line -- first line{
+    color: red;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::before -- first line{
+    color: red;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+p::after -- first line{
+    color: red;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+/* psueudo class */
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+ul li:first-child{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+ul li:last-child{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+ul li:nth-of-type(even){
+    border: 2px solid green;
+}
+
+ul li:nth-of-type(odd){
+    border: 2px solid blue;
+
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: aquamarine;
+}
+a:hover{
+    color: aquamarine;
+    background-color: green;
+}
+
+a:active{
+    color: white;
+    background-color: green;
+}
+
+span{
+    display: none;
+    background: yellow;
+    padding: 20px;
+}
