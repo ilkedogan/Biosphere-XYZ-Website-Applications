@@ -1,0 +1,40 @@
+/*
+    (1) padding: kutu ile yazı arasındaki mesafe artar
+    (2) p[title-="forth] forth kelimesinin içinde geçmesi yeterli
+    (3) href^=http -- http ile başlayan demek
+    (4) href$=http -- http ile biten demek
+    (5) iki tane [][] iki koşul da sağlanıyorsa demek
+*/
+p[title]{
+    border: 1px solid gray;
+    padding: 5px;
+}
+p[title = "third paragraf"]{
+    background-color: blueviolet;
+    }
+p[title = "third paragraf"]{
+    background-color: gold;
+    }
+a[href^=http]{
+    color: red;
+}
+
+a[href$=http]{
+    color: red;
+}
+
+a[href=https://docs.google.com/spreadsheets/d/1J8mfSJyyAslQZYxC8Em4k5RRAhLQS4yN3d746LEx61g/edit#gid=1115838130] [target="_blank"]{
+    color: red;
+}
+
+input[type="buton"]{
+    display: black;
+    width: 324px;
+    
+}
+
+input[type="text"]{
+    display: black;
+    width: 324px;
+    
+}
