@@ -1,0 +1,39 @@
+/* tüm etiketleri seçmek için "*" kullanılır
+*{
+    border : 1px solid blue;
+}
+
+
+.container div.box{
+    border: 1px solid red;
+
+}
+div{
+    border: 1px solid blue;
+}
+
+// bütün div etiketleri seçili
+
+div,p{
+    border: 1px solid blue;
+}
+
+// bütün div etiketleri seçili
+div.box,p{
+    border: 1px solid blue;
+}
+
+// bir üst elemandakiler çizilir
+div>p{
+    border: 1px solid red;
+}
+
+// p etiketlerinden sonra gelen tüm div ifadelerini seçer ve en baştaki div ile aynı seviyede olması gerekir
+
+
+p-div{
+    border: 1px solid red;
+}
+
+
+*/
