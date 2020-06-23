@@ -94,3 +94,6 @@ span{
     background: yellow;
     padding: 20px;
 }
+div:hover spann{
+    display: block;
+}
