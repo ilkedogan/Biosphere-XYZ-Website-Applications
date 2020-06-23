@@ -11,5 +11,7 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
  Recommended Sites about HTML - CSS - JAVASCRIPT
  - [CSS text-decoration Property](https://www.w3schools.com/cssref/pr_text_text-decoration.asp).
  - [CSS list-style-type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp).
+- [CSS Colors](https://www.w3schools.com/cssref/css_colors.asp).
+- [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp).
 
 ****
