@@ -1,4 +1,12 @@
-li{
-            text-decoration: line-through;
-    list-style-type: none;
-        }
+#container{
+    width: 1140px;
+}
+#blog-post-container{
+    width: 75%;
+    background-color: brown;
+}
+
+#other-posts{
+    width: 25%;
+    background-color: bisque;
+}
