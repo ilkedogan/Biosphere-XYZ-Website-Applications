@@ -15,4 +15,5 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 - [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp).
 - [CSS Web Safe Font Combinations](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
 - [Google fonts](https://fonts.google.com/).
+- [Font Awesome icons](https://fontawesome.com/start).
 ****
