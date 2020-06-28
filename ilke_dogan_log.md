@@ -16,4 +16,5 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 - [CSS Web Safe Font Combinations](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
 - [Google fonts](https://fonts.google.com/).
 - [Font Awesome icons](https://fontawesome.com/start).
+- [CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp).
 ****
