@@ -11,9 +11,41 @@ html {
 section {
     padding-top: 10rem;
     padding-bottom: 10rem;
+    text-align: center;
 }
-section #about{
-    border-color: gray;
+.btn {
+	margin-top:4rem; 
+	font-size: 2rem;
+	font-weight: 400;
+	display: inline-block;
+	border:2px solid transparent;
+	border-radius: .4rem;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.btn-outline {	
+	color:#fff;
+	border-color: #fff;	
+	background-color: transparent;	
+	padding: 2.2rem 1.6rem;
+}
+
+.btn-outline:hover {
+	color: #212529;
+	background-color: #fff;	
+}
+
+.btn-primary {
+	background-color: white;
+	border-color: gray;
+	
+	padding: 1.2rem 1rem;
+}
+
+.btn-primary:hover {
+	background-color:gray ;
+	border-color:white ;
 }
 
 body {
@@ -147,7 +179,7 @@ hr.mars-light {
 }
 
 hr.mars-dark {
-    border-color: rgb(150, 84, 51);
+    border-color: dimgray;
 }
 
 .mars-light,
@@ -168,7 +200,7 @@ hr.mars-dark {
 
 .mars-dark::after {
     background-color: white;
-    color: rgb(150, 84, 51);
+    color: dimgray;
 
 }
 
@@ -186,13 +218,12 @@ hr.mars-dark {
 
 /* subgroups sections*/
 #subgroups {
-    height: 600px;
-    text-align: center;
+    
 }
 
 #subgroups h2 {
     font-size: 4.8rem;
-    color: rgb(150, 84, 51);
+    color: dimgray;
 }
 
 .col {
@@ -239,6 +270,88 @@ hr.mars-dark {
 
 /*ABOUT*/
 #about {
-    background-color: gray;
-    color: white;
+    background-color: gainsboro;
+    color: gray;
+}
+
+
+#about h2 {
+	font-size: 4.8rem;
+}
+
+#about-text {
+	text-align: left;
+}
+
+#about-text .left {
+	float: left;
+	width: 50%;
+	padding-right: 2rem;
+	padding-left: 23rem;
+}
+
+#about-text .right {
+	float: right;
+	width: 50%;
+	padding-left: 2rem;
+	padding-right: 23rem;
+}
+
+
+#about-text .text{
+	font-size: 2rem;
+}
+#contact {
+}
+
+#contact h2 {
+	font-size: 4.8rem;
+	color: #2C3E50;
+}
+
+#contact-form {
+	width: 70%;
+	margin: 0 auto;
+	
+	
+	text-align: left;
+}
+
+.form-group {
+	border-bottom: 1px solid #e9ecef;
+	padding-bottom: 3rem;
+	margin-bottom: 4rem;
+}
+
+
+.form-group input,.form-group textarea {
+	border: none;
+	width: 100%;
+	display: block;
+	font-size: 2.4rem;
+}
+
+.form-group input:focus {
+	outline: 0;
+}
+footer {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	background-color: #2C3E50;
+	color: #fff;
+	text-align: center;
+}
+
+footer h4 {
+	font-size: 2.4rem;
+}
+
+footer p {
+	font-size: 2rem;
+	margin-top: 1rem;
+}
+
+footer li {
+	display: inline-block;
+	margin-right: 1rem;
 }
