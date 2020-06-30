@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 7x;
+}
+/* to prevent exceed limits for apps */
+img{
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* body part */
+body{
+    
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    padding: 1.6rem 0;
+    font-size:  2rem;
+}
+
+/* header part */
+header{
+    height: 35rem;
+}
+
+header .mars-image{
+    position: absolute;
+    background-image: url(img/mars-col.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    width: 100%;
+    opacity: 0.4;
+    /* to send back background-image */
+   z-index: -1;
+}
+
+header h1{
+    padding: 11rem;
+    padding-bottom: 0px;;
+}
+
+.btn{
+    display: inline-block;
+    background: #333;
+    color: aliceblue;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: #eaeaea;
+    color: #333;
+}
+
+/*section-a*/
+#section-a{
+    	padding: 2.5rem;
+	background-color: #eaeaea;
+	color:#333;
+	padding: 3.2rem 0;
+}
+
+/*section-b*/
+#section-b{
+	padding: 3.5rem;
+}
+
+#section-b ul {
+	list-style: none;
+}
+
+#section-b li {
+	background: #fff;
+	color:#333;
+	margin-bottom: 2.5rem;
+}
+
+.col-content {
+	padding: 1.5rem;
+}
+/*section-c*/
+#section-c{
+	padding: 5rem;
+    background-color:dimgrey;
+    opacity: 0.8;
+    color: azure;
+}
+
+/*section d*/
+
+#section-d .box {
+	padding: 2rem;
+    height: 600px;
+}
+#section-d .box:first-child  {
+    padding-top: 0;
+    background-color: gray;
+
+}
+#section-d .box:last-child  {
+    background-color: #333;
+    padding-top: 30px;
+}
+/*footer*/
+footer{
+	padding: 4rem;
+	background:white;
+    color: black;
+    font-size: 60px;
+}
+
+@media screen and (min-width:800px) {
+
+	html {
+		font-size: 9px;
+	}
+	
+	
+}
+@media screen and (min-width:1200px) {
+
+	#section-b li {
+		width: 28%;
+		margin: 1%;
+		display: inline-block;
+	}
+
+
+	.box {
+		width: 50%;
+		float: left;
+	}
+
+	html {
+		font-size: 12px;
+	}
+}
+    .boxes img{
+        width: 300px;
+        height: 200px;
+        border-radius: 6%;
+    }
