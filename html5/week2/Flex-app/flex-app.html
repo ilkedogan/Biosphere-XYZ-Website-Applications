@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>flex-app</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+
+            background-color: gray;
+            list-style: none;
+
+        }
+
+        .navigation a {
+            text-decoration: none;
+            display: block;
+            padding: 16px;
+            color: white;
+        }
+
+        .navigation a:hover {
+            background-color: dimgray;
+        }
+        @media all and (max-width: 800px){
+            .navigation{
+                justify-content: space-around;
+            }
+        }
+          @media all and (max-width: 600px){
+            .navigation{
+                flex-direction: column;
+            }
+               .navigation a {
+                text-align: center;
+                   padding: 10px;
+                   border-top: 1px solid gainsboro;
+                   border-bottom: 1px solid black;      
+            }
+              .navigation li:last-child a {
+                   border-bottom:none;
+                       
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <ul class="navigation">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Announcements</a></li>
+        <li><a href="">Contacts</a></li>
+    </ul>
+</body>
+
+</html>
