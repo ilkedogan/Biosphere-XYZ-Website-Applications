@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-app</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            padding: 30px;
+            text-align: center;
+            background-color: gold;
+            color: #fff;
+        }
+        .navbar{
+            background-color: saddlebrown;
+            display: flex;
+        }
+        
+        .navbar a{
+            background-color: saddlebrown;
+            color: #fff;
+            padding: 16px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color: aquamarine;
+            color: black;
+            padding: 16px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        #main{
+            display: flex;
+        }
+        
+        #sidebar{
+            background-color: aqua;
+            flex: %25;
+            padding: 20px;
+        }
+        #content{
+            flex: 75%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Lorem ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        
+    </div>
+    
+    <div class="navbar">
+        <a href="">Link 1</a>
+        <a href="">Link 2</a>
+        <a href="">Link 3</a>
+        <a href="">Link 4</a>
+    </div>
+    
+    <div id="main">
+        <div id="sidebar">
+            <div class="box">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <div class="ph" style="height: 200px;"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam excepturi doloribus debitis aut dolorem molestiae, asperiores autem ratione, atque deserunt.</p>
+                <div class="ph" style="height: 50px;"></div>
+                <div class="ph" style="height: 50px;"></div>
+                <div class="ph" style="height: 50px;"></div>
+            </div>
+        </div>
+        <div id="content">
+               <div class="box">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <div class="ph" style="height: 200px;"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam excepturi doloribus debitis aut dolorem molestiae, asperiores autem ratione, atque deserunt.</p>
+            </div>
+            <div class="box">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <div class="ph" style="height: 200px;"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam excepturi doloribus debitis aut dolorem molestiae, asperiores autem ratione, atque deserunt.</p>
+            </div>
+            </div>
+        
+    </div>
+</body>
+</html>
