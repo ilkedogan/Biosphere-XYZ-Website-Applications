@@ -18,7 +18,7 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 - [Font Awesome icons](https://fontawesome.com/start).
 - [CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp).
 - [Komple Uygulamalı Web Geliştirme Eğitimi](https://sadikturan.com/bootstrap-4/bootstrap-nedir/1195)
-- Tools for web development
+## Tools for web development
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 - [Foundation 6](https://get.foundation/sites/docs/)
 - [Shutterstock- Photograps](https://www.shutterstock.com/tr/search/space)
