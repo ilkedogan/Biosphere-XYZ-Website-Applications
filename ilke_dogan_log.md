@@ -8,7 +8,7 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 ---
 
 ### ~ 21.06.2020 ~
- Recommended Sites about HTML - CSS - JAVASCRIPT
+ ## Recommended Sites about HTML - CSS - JAVASCRIPT
  - [CSS text-decoration Property](https://www.w3schools.com/cssref/pr_text_text-decoration.asp).
  - [CSS list-style-type Property](https://www.w3schools.com/cssref/pr_list-style-type.asp).
 - [CSS Colors](https://www.w3schools.com/cssref/css_colors.asp).
@@ -25,4 +25,18 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 - [Space Stok Fotoğrafları ve Görseller](https://tr.123rf.com/stok-foto%C4%9Fraf/space.html?oriSearch=web+tasar%C4%B1m&sti=laym0e8yh47lefhhfm|)
 - [Web Tasarımda Yaratıcı Fotoğraf Kullanım Teknikleri](https://www.dijitalajanslar.com/web-tasarim-yaratici-fotograf-teknikleri/)
 - [Pixabay](https://pixabay.com/images/search/space/)
+- [Dribbbble](https://dribbble.com/shots/popular/web-design)
+
+### Color Palette
+- [Coolors](https://coolors.co/ffffff-e9fae3-dee8d5-d5c7bc-ac92a6)
+- [Paletton](https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+- [Hook Agency](https://hookagency.com/website-color-schemes/)
+- [7 Steps to Create Your Own Website Color Scheme](https://websitesetup.org/website-color-schemes/)
+- [Behance](https://www.behance.net/)
+- [Behance-Minimal Colors](https://www.behance.net/gallery/80191113/Minimalist-Color-Palettes-are-back)
+- [39 Inspiring Website Color Schemes to Awaken Your Creativity](https://graphicmama.com/blog/website-color-schemes/)
+- [50 Best Website Color Schemes of 2020](https://designshack.net/articles/trends/best-website-color-schemes/)
+- [Colors Pallete Generator](http://www.cssdrive.com/imagepalette/)
+- [Colormind- Colors Pallete Generator](http://colormind.io/image/)
+
 ****
