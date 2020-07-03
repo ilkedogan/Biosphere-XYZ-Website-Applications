@@ -43,7 +43,7 @@ header{
 
 header .mars-image{
     position: absolute;
-    background-image: url(img/mars-col.jpg);
+    background-image: url(img/gif.gif);
     background-size: cover;
     background-position: center;
     height: 35rem;
