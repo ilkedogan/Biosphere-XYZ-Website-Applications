@@ -5,22 +5,79 @@
 
 /* to prevent exceed limits for apps */
 .image {
-    background-image: url(img/sky.gif);
+    background-image: url(img/tranforming-to-earth.gif);
     position: absolute;
     height: 48rem;
     background-position: center;
     width: 100%;
     /* to send back background-image */
     z-index: -1;
-    font-size: 20px;
+    font-size: 10px;
 
 }
-
-.logo{
+nav .fs{
+    font-size: 3.0rem;
+    font-family: 'Permanent Marker', cursive;
+} 
+.logo {
     font-size: 20px;
 }
-.boyut{
+
+.boyut {
     height: 48rem;
 }
 
+.coming-soon {
+    color: white;
+    font-size: 70px;
+    font-family: 'Exo 2', sans-serif;
+}
 
+/*sayfa 2*/
+
+.content {
+    margin: auto;
+}
+
+.fixed-left {
+    float: left;
+    height: 48rem;
+    background-color: black;
+}
+
+.fixed-right {
+    float: right;
+    height: 48rem;
+    background-color: black;
+    color: white
+}
+
+.fixed-right h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5rem;
+}
+.fixed-right p{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+}
+
+/*sayfa 3*/
+.fixed-right-2{
+    float: right;
+    height: 48rem;
+    background-color: black;
+}
+.fixed-left-2{
+    float: left;
+    height: 48rem;
+    background-color: black;
+    color: white
+}
+.fixed-left-2 h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 5rem;
+}
+.fixed-left-2 p{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+}

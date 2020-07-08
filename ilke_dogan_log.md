@@ -39,4 +39,8 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 - [Colors Pallete Generator](http://www.cssdrive.com/imagepalette/)
 - [Colormind- Colors Pallete Generator](http://colormind.io/image/)
 
+### Jquery -- Java Script Library
+- [Jquery](https://jquery.com/)
+- [Jquery-ui(User Interface)](https://jqueryui.com/)
+
 ****
