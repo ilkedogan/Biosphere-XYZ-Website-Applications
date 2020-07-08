@@ -42,5 +42,8 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 ### Jquery -- Java Script Library
 - [Jquery](https://jquery.com/)
 - [Jquery-ui(User Interface)](https://jqueryui.com/)
+- [Owlcarousel2](https://owlcarousel2.github.io/OwlCarousel2/)
+- [FancyBox] (http://fancybox.net/)
+- [jQuery CDN] (https://code.jquery.com/)
 
 ****
