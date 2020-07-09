@@ -11,7 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <title>Biyosfer-XYZ</title>
 </head>
 
@@ -28,6 +28,37 @@
             <li><a href="#">CONTACT</a></li>
         </ul>
     </div>
+    <div class="ml-5 p-5">
+        <h3 id="header">Biosphere xyz</h3>
+        <ul id="liste">
+            <li>X</li>
+            <li>Y <a href="#">Link</a> </li>
+            <li>Z</li>
+        </ul>
+        <input type="text" placeholder="jaslkdjaslkdjl" value="Jquery Val fonskiyon">
+    </div>
+    <script>
+        document.getElementById("header").style.color = "red";
+        $("#header").css("color", "blue");
+        $("#liste").css("color", "green");
+        $("#liste a").css("text-decoration", "none");
+
+        var styles = {
+            color: "yellow",
+            fontSize: "20px",
+            border: "1px solid red"
+        }
+        $("ul li").css(styles);
+        $("a").css({
+            color: "green",
+            fontSize: "20px",
+            border: "1px solid red"
+        });
+        
+        $("input").val("enter your name");
+
+    </script>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

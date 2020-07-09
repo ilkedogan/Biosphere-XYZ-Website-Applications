@@ -45,5 +45,7 @@ On this page I will keep a weekly record of what I have done for the Bıosphere 
 - [Owlcarousel2](https://owlcarousel2.github.io/OwlCarousel2/)
 - [FancyBox] (http://fancybox.net/)
 - [jQuery CDN] (https://code.jquery.com/)
+- [CDNJs- Library] (https://cdnjs.com/libraries/jquery)
+- [Jquery Plugins] (https://plugins.jquery.com/)
 
 ****
