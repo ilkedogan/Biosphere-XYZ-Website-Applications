@@ -1,4 +1,37 @@
-.topnav a:hover {
-    border-bottom: 3px solid red;
-}
-
+* {
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+ }
+ .backgroundVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+ }
+ .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+ }
+ .playPauseBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(72, 22, 167);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+ }
+ .playPauseBtn:hover {
+    opacity: 1;
+ }
